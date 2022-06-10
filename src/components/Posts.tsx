@@ -12,7 +12,7 @@ export function Posts() {
 
   return (
     <article
-      className="py-6 px-10 lg:px-20 min-h-screen h-fit"
+      className="py-6 px-10 lg:px-32 lg:py-12 md:px-16 md:py-8 min-h-screen h-fit"
     >
       <h1
         id="posts"

@@ -2,7 +2,7 @@ import { BracketsSquare } from 'phosphor-react'
 
 export function Navbar() {
   return (
-    <nav className='flex fixed w-screen text-lg font-medium justify-between gap-4 items-center py-2 px-6 lg:px-12 bg-zinc-900 text-zinc-50 shadow-sm'>
+    <nav className='flex fixed w-screen text-lg font-medium justify-between gap-4 items-center py-2 px-6 md:px-16 lg:px-32 bg-zinc-900 text-zinc-50 shadow-sm'>
       <a href="#home">
         <BracketsSquare
           size={32}

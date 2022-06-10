@@ -11,7 +11,7 @@ export function Albums() {
 
   return (
     <article
-      className="py-6 px-10 lg:px-20 min-h-screen h-fit bg-green-200"
+      className="py-6 px-10 lg:px-32 lg:py-12 md:px-16 md:py-8 min-h-screen h-fit bg-green-200"
     >
       <h1
         id="albums"
