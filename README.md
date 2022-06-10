@@ -12,4 +12,4 @@ All the application should work with the initially synchronized local storage da
 The API to be used is published at https://jsonplaceholder.typicode.com/
 
 ## Live Site
-[Live Site](react-api-challenge.netlify.app/)
+![Link](react-api-challenge.netlify.app/)
