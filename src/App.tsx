@@ -1,4 +1,5 @@
 import { Albums } from "./components/Albums";
+import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { Posts } from "./components/Posts";
@@ -14,6 +15,7 @@ export function App() {
       <Posts />
       <Albums />
       <ToDos />
+      <Footer />
     </>
   )
 }
