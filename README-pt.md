@@ -10,3 +10,6 @@ Esta aplicação deve conter os menus:
 
 Toda a aplicação funcionará com o banco local sincronizado inicialmente.
 A API a ser utilizada está publicada em https://jsonplaceholder.typicode.com/
+
+## Live Site
+[Live Site](react-api-challenge.netlify.app/)
