@@ -11,5 +11,5 @@ The App should contain the menus:
 All the application should work with the initially synchronized local storage data.
 The API to be used is published at https://jsonplaceholder.typicode.com/
 
-## Live Site
+## Link
 [Live Site](https://react-api-challenge.netlify.app/)
