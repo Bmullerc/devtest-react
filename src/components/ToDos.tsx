@@ -26,7 +26,7 @@ export function ToDos() {
             <li className="py-2 flex justify-between border-b border-green-200" key={api.id}>
               <strong>{api.title}</strong>
               <input 
-              className="ml-4 h-4 w-4 lg:h-6 lg:w-6 accent-green-200 self-center cursor-not-allowed"
+              className="ml-4 h-4 lg:w-6 lg:h-6 accent-green-200 self-center cursor-not-allowed"
               type="checkbox" 
               checked={api.completed}
               />
