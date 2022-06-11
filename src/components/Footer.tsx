@@ -9,6 +9,7 @@ export function Footer() {
         >
           Bernardo Müller
         </a>
+        &nbsp;&#8594; 2022
       </h3>
     </footer>
   )
