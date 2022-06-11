@@ -1,6 +1,6 @@
 import { Albums } from "./components/Albums";
 import { Footer } from "./components/Footer";
-import { Home } from "./components/Home";
+import { Header } from "./components/Header";
 import { Navbar } from "./components/Navbar";
 import { Posts } from "./components/Posts";
 import { ToDos } from "./components/ToDos";
@@ -11,7 +11,7 @@ export function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      <Header />
       <Posts />
       <Albums />
       <ToDos />

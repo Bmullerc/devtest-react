@@ -29,6 +29,7 @@ export function ToDos() {
               className="ml-4 h-4 lg:w-6 lg:h-6 accent-green-200 self-center cursor-not-allowed"
               type="checkbox" 
               checked={api.completed}
+              readOnly
               />
             </li>
           )
