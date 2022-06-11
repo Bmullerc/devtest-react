@@ -18,7 +18,7 @@ export function Posts() {
         id="posts"
         className="font-bold text-4xl text-center"
       >
-        Posts
+        [ Posts ]
       </h1>
       <ul className="mt-6 capitalize">
         {fakeApi?.map(api => {

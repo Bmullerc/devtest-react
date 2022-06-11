@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="h-10 -mb-1 pt-2 bg-zinc-900 text-zinc-50/75 text-xs text-center font-light">
+    <footer className="h-10 pt-2 bg-zinc-900 text-zinc-50/75 text-xs text-center font-light">
       <h3>
         Made by&nbsp;
         <a

@@ -17,7 +17,7 @@ export function Albums() {
         id="albums"
         className="font-bold text-4xl text-center"
       >
-        Albums
+        [ Albums ]
       </h1>
       <ul className="lg:grid lg:grid-cols-2 lg:gap-x-12 mt-6 capitalize border-2 border-green-200 rounded-md bg-green-50">
         {fakeApi?.map(api => {
