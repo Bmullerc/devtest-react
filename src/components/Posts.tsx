@@ -23,7 +23,7 @@ export function Posts() {
       <ul className="mt-6 capitalize">
         {fakeApi?.map(api => {
           return (
-            <li className="py-2" key={api.id}>
+            <li className="py-3 px-2" key={api.id}>
               <strong>{api.title}</strong>
               <p>{api.body}</p>
             </li>
