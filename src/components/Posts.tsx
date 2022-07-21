@@ -1,6 +1,6 @@
 import { useFetch } from "../hooks/useFetch";
 
-type Placeholder = {
+type Posts = {
   userId: number;
   id: number;
   title: string;
@@ -8,7 +8,7 @@ type Placeholder = {
 }
 
 export function Posts() {
-  const { data: fakeApi } = useFetch<Placeholder[]>('https://jsonplaceholder.typicode.com/posts')
+  const { data } = useFetch<Posts[]>('https://jsonplaceholder.typicode.com/posts')
 
   return (
     <article
@@ -21,7 +21,7 @@ export function Posts() {
         [ Posts ]
       </h1>
       <ul className="mt-6 capitalize">
-        {fakeApi?.map(api => {
+        {data?.map(api => {
           return (
             <li className="py-3 px-2" key={api.id}>
               <strong>{api.title}</strong>

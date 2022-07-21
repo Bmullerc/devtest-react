@@ -8,7 +8,7 @@ type ToDos = {
 }
 
 export function ToDos() {
-  const { data: fakeApi } = useFetch<ToDos[]>('https://jsonplaceholder.typicode.com/todos')
+  const { data } = useFetch<ToDos[]>('https://jsonplaceholder.typicode.com/todos')
 
   return (
     <article
@@ -21,7 +21,7 @@ export function ToDos() {
         [ ToDos ]
       </h1>
       <ul className="mt-6 capitalize">
-        {fakeApi?.map(api => {
+        {data?.map(api => {
           return (
             <li className="py-2 px-2 flex justify-between border-b border-green-200 odd:bg-green-50 rounded-sm" key={api.id}>
               <strong>{api.title}</strong>
